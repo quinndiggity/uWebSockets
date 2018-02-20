@@ -13,7 +13,8 @@ int main() {
         ws->send(message, length, opCode);
     });
 
-    h.onHttpRequest([&](HttpResponse *res, HttpRequest req, char *data, size_t length, size_t remainingBytes) {
+    h.onHttpRequest([&](HttpResponse *res, HttpRequest req, char *data, size_t length,
+                        size_t remainingBytes) {
         res->end(response.data(), response.length());
     });
 
