@@ -1,6 +1,6 @@
-<div align="center"><img src="misc/images/logo.png"/><h3><i>Tiny WebSockets</i></h3></div><br><br>
+<div align="center"><img src="misc/images/logo.png"/></div><br><br>
 
-##### Build optimized WebSocket & HTTP servers & clients in no time.
+#### Build optimized WebSocket & HTTP servers & clients in no time.
 ```c++
 #include <uWS/uWS.h>
 
@@ -22,8 +22,8 @@ int main() {
 }
 ```
 
-##### Excel across the board.
+#### Excel across the board.
 <div align="center"><img src="misc/images/overview.png"/></div>
 
-##### Freely available.
-Non-profit open source. Permissive Zlib license.
+#### Freely available.
+Non-profit open source.
