@@ -3,16 +3,17 @@
 #### Build optimized WebSocket & HTTP servers & clients in no time.
 ```c++
 #include <uWS/uWS.h>
+using namespace uWS;
 
 int main() {
-    uWS::Hub h;
+    Hub h;
     std::string response = "Hello!";
 
-    h.onMessage([](uWS::WebSocket<uWS::SERVER> *ws, char *message, size_t length, uWS::OpCode opCode) {
+    h.onMessage([](WebSocket<SERVER> *ws, char *message, size_t length, OpCode opCode) {
         ws->send(message, length, opCode);
     });
 
-    h.onHttpRequest([&](uWS::HttpResponse *res, uWS::HttpRequest req, char *data, size_t length, size_t remainingBytes) {
+    h.onHttpRequest([&](HttpResponse *res, HttpRequest req, char *data, size_t length, size_t remainingBytes) {
         res->end(response.data(), response.length());
     });
 
