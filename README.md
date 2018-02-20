@@ -26,4 +26,4 @@ int main() {
 <div align="center"><img src="misc/images/overview.png"/></div>
 
 ### Freely available.
-Licensed Zlib
+Non-profit open source. Permissive Zlib license.
