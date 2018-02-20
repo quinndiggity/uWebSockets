@@ -7,9 +7,6 @@
 
 Read more
 
-[![](https://api.travis-ci.org/uWebSockets/uWebSockets.svg?branch=master)](https://travis-ci.org/uWebSockets/uWebSockets)
-
-
 ### Build optimized WebSocket & HTTP servers & clients in no time.
 ```c++
 #include <uWS/uWS.h>
