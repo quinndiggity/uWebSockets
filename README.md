@@ -1,8 +1,7 @@
 <div align="center"><img src="misc/images/logo.png"/></div>
 
-*Build optimized WebSocket & HTTP servers & clients in no time.*
 
-### Simple
+### Build optimized WebSocket & HTTP servers & clients in no time.
 ```c++
 #include <uWS/uWS.h>
 
