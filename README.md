@@ -1,11 +1,4 @@
-<div align="center"><img src="misc/images/logo.png"/></div>
-
-* Autobahn tests [all pass](http://htmlpreview.github.io/?https://github.com/uWebSockets/uWebSockets/blob/master/misc/autobahn/index.html) (including permessage-deflate & SSL tests).
-* One million WebSockets require ~111mb of user space memory (104 bytes per WebSocket).
-* Single-threaded throughput of up to 5 million HTTP req/sec or 20 million WebSocket echoes/sec.
-* Linux, macOS & Windows support.
-
-Read more
+<div align="center"><img src="misc/images/logo.png"/></div><br><br>
 
 ### Build optimized WebSocket & HTTP servers & clients in no time.
 ```c++
