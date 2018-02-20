@@ -1,5 +1,7 @@
 <div align="center"><img src="misc/images/logo.png"/></div>
 
+*Build optimized WebSocket & HTTP servers & clients in no time.*
+
 ### Simple
 ```c++
 #include <uWS/uWS.h>
@@ -26,3 +28,4 @@ int main() {
 <div align="center"><img src="misc/images/overview.png"/></div>
 
 ### Open
+Permissive Zlib license
