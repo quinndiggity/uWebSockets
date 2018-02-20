@@ -1,4 +1,4 @@
-<div align="center"><img src="misc/images/logo.png"/><br><h3><i>Tiny WebSockets</i></h3></div><br><br>
+<div align="center"><img src="misc/images/logo.png"/><h3><i>Tiny WebSockets</i></h3></div><br><br>
 
 ##### Build optimized WebSocket & HTTP servers & clients in no time.
 ```c++
