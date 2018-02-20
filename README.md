@@ -1,5 +1,10 @@
 <div align="center"><img src="misc/images/logo.png"/></div>
 
+* sdf
+* sdf
+
+[![](https://api.travis-ci.org/uWebSockets/uWebSockets.svg?branch=master)](https://travis-ci.org/uWebSockets/uWebSockets)
+
 
 ### Build optimized WebSocket & HTTP servers & clients in no time.
 ```c++
@@ -23,8 +28,8 @@ int main() {
 }
 ```
 
-### Efficient
+### Excel across the board.
 <div align="center"><img src="misc/images/overview.png"/></div>
 
-### Open
-Permissive Zlib license
+### Freely available.
+Licensed Zlib
